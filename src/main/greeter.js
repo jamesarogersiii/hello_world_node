@@ -2,6 +2,11 @@ module.exports = {
   greeting(){ 
     return [
       {
+        "language": "English",
+        "symbol": "en",
+        "text": "Hello World"
+      },
+      {
         "language": "Czech",
         "symbol": "cs",
         "text": "Ahoj světe"
@@ -90,11 +95,6 @@ module.exports = {
         "language": "Thai",
         "symbol": "th",
         "text": "สวัสดีชาวโลก"
-      },
-      {
-        "language": "Korean",
-        "symbol": "ko",
-        "text": "Hello World"
       },
       {
         "language": "Finnish",
